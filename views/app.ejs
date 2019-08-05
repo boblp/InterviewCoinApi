@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome</title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;   user-scalable=0;" name="viewport">
+
+		<link href="/css/materialize.min.css" rel="stylesheet">
+		<link href="/css/style.css" rel="stylesheet">
+
+		<script src="/js/jquery-2.2.4.min.js"></script>
+		<script src="/js/materialize.js"></script>
+		<script src="/js/script.js"></script>
+	</head>
+	<body id="content" class="blue-grey darken-4">
+		<div class="outer">
+			<div class="middle">
+				<div class="inner">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col l4 offset-l4 m6 offset-m3 s10 offset-s1 card grey darken-4 padding_card">
+								<div class="col s12">
+									<h2 class="align_center white-text margin_0">Get Rate</h2>
+									<p class="white-text align_center italics">Get the current exchange rate between requested asset and all other assets.</p>
+								</div>
+								<div class="input-field col s12">
+									<select id="currency_select" class="white-text">
+										<option value="" disabled selected>Choose a Crypto</option>
+										<option value="BTC">BTC</option>
+										<option value="ETH">ETH</option>
+										<option value="XRP">XRP</option>
+									</select>
+								</div>
+								<div id="rates" class="col s12" style="display:none">
+									<table class="orange-text">
+										<thead>
+											<tr>
+												<th>Currency</th>
+												<th>Rate</th>
+											</tr>
+										</thead>
+										<tbody id="rates_data">
+										
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="col s12 align_center margin_top_10">
+								<a href="/logout" class="red-text">Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

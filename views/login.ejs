@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Login</title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;   user-scalable=0;" name="viewport">
+
+		<link href="/css/materialize.min.css" rel="stylesheet">
+		<link href="/css/style.css" rel="stylesheet">
+
+		<script src="/js/jquery-2.2.4.min.js"></script>
+		<script src="/js/materialize.js"></script>
+		<script src="/js/login.js"></script>
+	</head>
+	<body id="content" class="blue-grey darken-4">
+		<div class="outer">
+			<div class="middle">
+				<div class="inner">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col l4 offset-l4 m6 offset-m3 s10 offset-s1 card grey darken-4 padding_card">
+								<div class="col s12">
+									<h1 class="align_center white-text margin_0">Welcome</h1>
+								</div>
+								<div class="input-field col s12">
+									<label for="username">Username</label>
+									<input id="username" class="form-control white-text" type="text" name="username">
+								</div>
+								<div class="input-field col s12">
+									<label for="password">Password</label>
+									<input id="password" class="form-control white-text" type="password" name="password">
+								</div>
+								<div id="error_msg" class="col s12" style="display:none">
+									<p id="error_text" class="red-text align_center"></p>
+								</div>
+								<div class="col s12">
+									<button id="loginBtn" class="btn orange wavers-effect waves-light width_100">Login</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

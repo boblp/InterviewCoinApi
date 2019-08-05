@@ -1,0 +1,43 @@
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+    height: flexible
+}
+
+.align_center{
+    text-align: center;
+}
+
+.margin_0{
+    margin: 0!important;
+}
+
+.width_100{
+    width: 100%!important;
+}
+
+.padding_card {
+    padding: 20px!important;
+}
+
+#loginBtn{
+    margin: 20px 0px 10px 0px;
+}
+
+#rates_data{
+    color: white;
+}
